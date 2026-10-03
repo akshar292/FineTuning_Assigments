@@ -1,0 +1,24 @@
+Scenario
+Ek music app Gujarat ke users ko regional songs recommend karna chahta hai.
+Options:
+- Prompting
+- RAG
+- Fine-Tuning
+Choice: RAG
+Is scenario mein RAG (Retrieval-Augmented Generation) useful approach ho sakta hai, especially agar regional song information frequently update hoti rahe.
+Reason 1 — Domain-specific information
+RAG music catalog se current information retrieve kar sakta hai, jaise:
+Gujarati songs
+Gujarati artists
+Garba songs
+Dayro
+Regional albums
+
+Reason 2 — Updated information
+Music catalog frequently change ho sakta hai. RAG external/current data retrieve kar sakta hai without repeatedly fine-tuning the model.
+Important Difference
+Prompting → Instructions
+RAG       → External/current information
+Fine-Tuning → Model behavior/style/task adaptation
+
+Note: Agar primary goal highly personalized recommendation ranking hai, to recommendation system/user-history models bhi typically important honge; RAG alone complete recommendation system nahi hai.

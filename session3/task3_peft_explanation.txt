@@ -1,0 +1,19 @@
+PEFT stands for Parameter Efficient Fine-Tuning.
+
+The main advantage of PEFT is that it updates only a small
+number of parameters instead of updating the entire pre-trained
+model. This reduces memory usage, training time, and storage
+requirements.
+
+PEFT is especially useful when working with large AI models
+because full fine-tuning can require expensive hardware.
+
+Example 1: Zomato
+A restaurant-support model could use PEFT to adapt its behavior
+for restaurant queries, food recommendations, and customer support
+without retraining the complete model.
+
+Example 2: WhatsApp
+A specialized assistant could use PEFT to adapt a language model
+for a particular messaging or classification task while keeping
+most of the original model frozen.

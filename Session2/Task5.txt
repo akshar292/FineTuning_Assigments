@@ -1,0 +1,15 @@
+Prompt to ChatGPT:
+I want to build a BookMyShow-style movie recommendation chatbot.
+
+Users should be able to ask questions such as:
+- Recommend an action movie.
+- What are some good comedy movies?
+- I want a movie similar to a particular movie.
+- Recommend movies based on language and genre.
+
+Should I use Prompt Engineering, RAG, or Fine-Tuning?
+Explain which approach would be useful and why.
+Also explain whether a combination of approaches would be better.
+
+Example ChatGPT Advice
+A practical design would likely combine approaches rather than treating Prompt, RAG, and Fine-Tuning as mutually exclusive. Prompt engineering can control the chatbot's instructions and response format, while RAG can retrieve current movie information such as titles, genres, languages, ratings, availability, and descriptions. Fine-tuning could be considered later if the chatbot needs a highly consistent specialized behavior or response style and sufficient high-quality examples are available.

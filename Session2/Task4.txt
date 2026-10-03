@@ -1,0 +1,9 @@
+| Criteria | Prompt Engineering | RAG | Fine-Tuning |
+|---|---|---|---|
+| **Setup Cost** | Low | Medium | Higher |
+| **Time to Deploy** | Very fast | Moderate | Longer |
+| **Maintenance** | Low to moderate | Moderate to high because data needs updating | Higher because model may need retraining/re-evaluation |
+| **Ideal Use Cases** | Instructions, tone, formatting, simple behavior changes | Current/domain-specific information | Consistent task behavior, style, or domain adaptation |
+| **Need Training Data?** | No | Requires knowledge source/data | Requires suitable training examples |
+| **Knowledge Updates** | Not directly | Easy by updating the knowledge source | Usually requires additional training |
+| **Example** | Instagram bio generator | Product-support chatbot | Specialized support-response behavior |

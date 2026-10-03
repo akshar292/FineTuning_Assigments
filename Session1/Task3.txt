@@ -1,0 +1,12 @@
+Example: Flipkart Customer Support Chatbot
+Suppose Flipkart ka chatbot customer ke questions ka answer deta hai. Prompt engineering se hum chatbot ko instructions de sakte hain ki refund, delivery aur return questions kaise answer karne hain. Lekin agar chatbot ko Flipkart ki specific communication style, product terminology aur thousands of previous customer-support conversations ke patterns consistently follow karne hain, to prompting alone may not be enough. Aise case mein relevant examples par fine-tuning model ko desired response style aur task behavior learn karne mein help kar sakti hai
+
+Simple Understanding
+Prompting:
+"Answer the customer politely and explain the return policy."
+
+Fine-Tuning:
+Many examples of:
+Customer Question → Ideal Flipkart Response
+
+Model in examples se desired behavior learn kar sakta hai.

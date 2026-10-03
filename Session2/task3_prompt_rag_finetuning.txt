@@ -1,0 +1,35 @@
+1. Prompt Engineering — Zomato Chatbot
+Scenario: User asks:
+"Suggest me a vegetarian dinner."
+
+Prompt engineering useful hai because we can give the chatbot instructions about response format, tone, dietary preferences, etc.
+User Question
+      ↓
+Detailed Prompt
+      ↓
+AI Response
+
+Why? Simple behavior customization ke liye model ko retrain karne ki zarurat nahi hoti.
+2. RAG — Flipkart Product Support
+Scenario: User asks:
+"What is the return policy for this product?"
+
+RAG useful hai because product information and return policies can change. The chatbot can retrieve the latest information from the relevant database/document and use it to answer.
+User Question
+      ↓
+Search Product Information
+      ↓
+Retrieve Relevant Data
+      ↓
+AI Answer
+
+3. Fine-Tuning — Paytm Customer Support
+Scenario: Paytm wants a chatbot that consistently follows a particular customer-support response style and handles many examples of support conversations.
+Fine-tuning can be considered when many high-quality examples are available and the desired behavior needs to be learned consistently rather than repeatedly specified in prompts.
+Support Conversations
+        ↓
+Fine-Tuning
+        ↓
+Customized Model
+        ↓
+Customer Support

@@ -1,0 +1,8 @@
+✅ Task 1 — Features Improved by Fine-Tuning
+Instagram ya Zomato jaise apps mein fine-tuning se AI ko specific task ke liye better train kiya ja sakta hai.
+1. Zomato Food Recommendation
+Fine-tuning se AI ko food preferences aur restaurant-related examples par train kiya ja sakta hai. Isse AI user ki पसंद ke according Gujarati, Punjabi, South Indian, Jain, spicy, etc. food recommendations ko better understand kar sakta hai.
+2. Instagram Content Recommendation
+AI ko user engagement aur content-related data ke examples par fine-tune karke relevant posts, reels aur content categories ko better identify karne mein help mil sakti hai.
+3. Customer Support Chatbot
+Zomato customer-support chatbot ko restaurant, delivery, refund aur order-related conversations par fine-tune kiya ja sakta hai. Isse chatbot app ke specific terminology aur common customer questions ko better handle kar sakta hai.

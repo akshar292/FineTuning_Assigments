@@ -1,0 +1,6 @@
+| Feature | Pre-trained AI Model | Fine-tuned AI Model |
+|---|---|---|
+| **Accuracy** | General language understanding karta hai, isliye specific spam patterns miss kar sakta hai. | Gmail ke spam examples par train hone ke baad specific spam patterns ko better identify kar sakta hai. |
+| **Relevance** | General-purpose knowledge hota hai. | Gmail ke email/spam domain ke liye more relevant ho sakta hai. |
+| **User Experience** | Kuch unwanted emails incorrectly classify ho sakte hain. | Better classification se spam filtering experience improve ho sakta hai. |
+| **Training** | Large general dataset par pre-trained hota hai. | Specific task/domain ke additional examples par train kiya jata hai. |
